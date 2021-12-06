@@ -2,7 +2,10 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(1, 1, 57);
+    color: white;
 }
+
 
 main{
     flex-grow: 1;
@@ -10,4 +13,10 @@ main{
 
 .score-row{
     min-height: 70vh;
+}
+
+button{
+    background-color: rgb(254, 254, 95);
+    border-radius: 5px;
+    border-color: black;
 }
